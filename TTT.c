@@ -178,7 +178,7 @@ void loop_2_players(char v[3][3]){
 	}while(i <= 9 && j == 2);
     
 	system("cls");
-	tablero(v);
+	table(v);
 	
 	if(j == 0){
     	printf("Player 1 wins !\n");
